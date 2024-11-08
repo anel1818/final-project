@@ -1,0 +1,39 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-ignition": "^0.15.7",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.4.7",
+    "hardhat": "^2.12.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0",
+    "@pinata/sdk": "^2.1.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "crypto": "^1.0.1",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "ipfs-http-client": "^50.1.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0",
+    "multer": "^1.4.5-lts.1",
+    "pinata": "^1.7.2",
+    "web3": "^4.14.0"
+  },
+  "description": ""
+}
